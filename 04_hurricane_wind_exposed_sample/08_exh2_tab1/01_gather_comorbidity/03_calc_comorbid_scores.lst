@@ -1,0 +1,410 @@
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   1
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        WORK.DIAG_IMP                                            Observations          1140653
+            Member Type          DATA                                                     Variables             4      
+            Engine               V9                                                       Indexes               0      
+            Created              06/23/2026 13:19:18                                      Observation Length    64     
+            Last Modified        06/23/2026 13:19:18                                      Deleted Observations  0      
+            Protection                                                                    Compressed            NO     
+            Data Set Type                                                                 Sorted                NO     
+            Label                                                                                                      
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                 
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    1118                                                  
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218171                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           73334784                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      6    $6.        $6.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     41    $41.       $41.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   2
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        WORK.DIAG_IMP                                            Observations          1598397
+            Member Type          DATA                                                     Variables             4      
+            Engine               V9                                                       Indexes               0      
+            Created              06/23/2026 13:21:17                                      Observation Length    56     
+            Last Modified        06/23/2026 13:21:17                                      Deleted Observations  0      
+            Protection                                                                    Compressed            NO     
+            Data Set Type                                                                 Sorted                NO     
+            Label                                                                                                      
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                 
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    1371                                                  
+                         First Data Page             1                                                     
+                         Max Obs per Page            1166                                                  
+                         Obs in First Data Page      1126                                                  
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           89915392                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      5    $5.        $5.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     41    $41.       $41.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   3
+
+                                                       The CONTENTS Procedure
+
+             Data Set Name        WORK.DIAG_IMP                                            Observations          289881
+             Member Type          DATA                                                     Variables             4     
+             Engine               V9                                                       Indexes               0     
+             Created              06/23/2026 13:21:42                                      Observation Length    56    
+             Last Modified        06/23/2026 13:21:42                                      Deleted Observations  0     
+             Protection                                                                    Compressed            NO    
+             Data Set Type                                                                 Sorted                NO    
+             Label                                                                                                     
+             Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                
+             Encoding             latin1  Western (ISO)                                                                
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    249                                                   
+                         First Data Page             1                                                     
+                         Max Obs per Page            1166                                                  
+                         Obs in First Data Page      1126                                                  
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           16384000                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      5    $5.        $5.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     41    $41.       $41.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   4
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        WORK.DIAG_IMP                                            Observations          1290256
+            Member Type          DATA                                                     Variables             4      
+            Engine               V9                                                       Indexes               0      
+            Created              06/23/2026 13:23:16                                      Observation Length    64     
+            Last Modified        06/23/2026 13:23:16                                      Deleted Observations  0      
+            Protection                                                                    Compressed            NO     
+            Data Set Type                                                                 Sorted                NO     
+            Label                                                                                                      
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                 
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    1264                                                  
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           82903040                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     43    $43.       $43.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   5
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        WORK.DIAG_IMP                                            Observations          1221223
+            Member Type          DATA                                                     Variables             4      
+            Engine               V9                                                       Indexes               0      
+            Created              06/23/2026 13:24:57                                      Observation Length    64     
+            Last Modified        06/23/2026 13:24:57                                      Deleted Observations  0      
+            Protection                                                                    Compressed            NO     
+            Data Set Type                                                                 Sorted                NO     
+            Label                                                                                                      
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                 
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    1197                                                  
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           78512128                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     42    $42.       $42.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   6
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        WORK.DIAG_IMP                                            Observations          1545671
+            Member Type          DATA                                                     Variables             4      
+            Engine               V9                                                       Indexes               0      
+            Created              06/23/2026 13:26:54                                      Observation Length    64     
+            Last Modified        06/23/2026 13:26:54                                      Deleted Observations  0      
+            Protection                                                                    Compressed            NO     
+            Data Set Type                                                                 Sorted                NO     
+            Label                                                                                                      
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                 
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    1514                                                  
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           99287040                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     44    $44.       $44.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   7
+
+                                                       The CONTENTS Procedure
+
+             Data Set Name        WORK.DIAG_IMP                                            Observations          762329
+             Member Type          DATA                                                     Variables             4     
+             Engine               V9                                                       Indexes               0     
+             Created              06/23/2026 13:27:56                                      Observation Length    64    
+             Last Modified        06/23/2026 13:27:56                                      Deleted Observations  0     
+             Protection                                                                    Compressed            NO    
+             Data Set Type                                                                 Sorted                NO    
+             Label                                                                                                     
+             Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                
+             Encoding             latin1  Western (ISO)                                                                
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    747                                                   
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           49020928                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     42    $42.       $42.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   8
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        WORK.DIAG_IMP                                            Observations          4730302
+            Member Type          DATA                                                     Variables             4      
+            Engine               V9                                                       Indexes               0      
+            Created              06/23/2026 13:31:37                                      Observation Length    64     
+            Last Modified        06/23/2026 13:31:37                                      Deleted Observations  0      
+            Protection                                                                    Compressed            NO     
+            Data Set Type                                                                 Sorted                NO     
+            Label                                                                                                      
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                 
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    4634                                                  
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           303759360                                             
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     43    $43.       $43.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026   9
+
+                                                       The CONTENTS Procedure
+
+             Data Set Name        WORK.DIAG_IMP                                            Observations          770398
+             Member Type          DATA                                                     Variables             4     
+             Engine               V9                                                       Indexes               0     
+             Created              06/23/2026 13:32:55                                      Observation Length    64    
+             Last Modified        06/23/2026 13:32:55                                      Deleted Observations  0     
+             Protection                                                                    Compressed            NO    
+             Data Set Type                                                                 Sorted                NO    
+             Label                                                                                                     
+             Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                
+             Encoding             latin1  Western (ISO)                                                                
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    755                                                   
+                         First Data Page             1                                                     
+                         Max Obs per Page            1021                                                  
+                         Obs in First Data Page      985                                                   
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           49545216                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     44    $44.       $44.    
+                                       3    year           Num       8    BEST12.    BEST32. 
+                                                           The SAS System                           13:17 Tuesday, June 23, 2026  10
+
+                                                       The CONTENTS Procedure
+
+             Data Set Name        WORK.DIAG_IMP                                            Observations          603833
+             Member Type          DATA                                                     Variables             4     
+             Engine               V9                                                       Indexes               0     
+             Created              06/23/2026 13:33:45                                      Observation Length    56    
+             Last Modified        06/23/2026 13:33:45                                      Deleted Observations  0     
+             Protection                                                                    Compressed            NO    
+             Data Set Type                                                                 Sorted                NO    
+             Label                                                                                                     
+             Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                                
+             Encoding             latin1  Western (ISO)                                                                
+
+
+                                                 Engine/Host Dependent Information
+
+                         Data Set Page Size          65536                                                 
+                         Number of Data Set Pages    518                                                   
+                         First Data Page             1                                                     
+                         Max Obs per Page            1166                                                  
+                         Obs in First Data Page      1126                                                  
+                         Number of Data Set Repairs  0                                                     
+                         Filename                    /tmp/SAS_workA75F00398E26_cri22in004/diag_imp.sas7bdat
+                         Release Created             9.0401M2                                              
+                         Host Created                Linux                                                 
+                         Inode Number                134218172                                             
+                         Access Permission           rw-r-----                                             
+                         Owner Name                  jessyjkn                                              
+                         File Size (bytes)           34013184                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                       #    Variable       Type    Len    Format     Informat
+
+                                       2    DX             Char      7    $7.        $7.     
+                                       4    Dx_CodeType    Char      2                       
+                                       1    patid          Char     39    $39.       $39.    
+                                       3    year           Num       8    BEST12.    BEST32. 

@@ -1,0 +1,70 @@
+% This takes in both the hurricane wind-exposed sample and the closed sample to create one table
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{makecell}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{caption}
+
+\begin{document}
+
+\captionsetup[table]{labelformat=empty}
+
+\begin{table}[!htbp]
+\centering
+
+\begin{adjustbox}{max width=\textwidth}
+\begin{threeparttable}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+
+\caption{Table 3: Within-beneficiary estimates comparing the reference week with post-exposure windows for hurricane wind-exposed and facility-disruption samples}
+\label{tab:combined_pooled_multihorizon_stacked_wkm2}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.2in} c *{4}{c}}
+\toprule
+& \multicolumn{1}{c}{Sample size}
+& \multicolumn{1}{c}{Dialysis disruption}
+& \multicolumn{1}{c}{ED visit}
+& \multicolumn{1}{c}{IP admission}
+& \multicolumn{1}{c}{Mortality}\\
+\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}\cmidrule(lr){6-6}
+\makecell[l]{Comparison window}
+& \makecell[c]{Obs\\$N$\tnote{a}}
+& \makecell[c]{Effect\\(95\% CI)\tnote{b}}
+& \makecell[c]{Effect\\(95\% CI)\tnote{b}}
+& \makecell[c]{Effect\\(95\% CI)\tnote{b}}
+& \makecell[c]{Effect\\(95\% CI)\tnote{b}}\\
+\midrule
+
+\textbf{Hurricane sample\tnote{c}} & & & & & \\
+\input{exhibit_step5_pooled_multihorizon_stacked_body_wkm2.tex}
+
+\addlinespace[0.4em]
+\textbf{Closed facility sample\tnote{d}} & & & & & \\
+\input{exhibit_step5_disrupted_pooled_multihorizon_stacked_body_wkm2.tex}
+
+\bottomrule
+\end{tabular}
+
+\begin{tablenotes}[flushleft]
+\footnotesize
+Notes: The analysis compares the reference week with the exposure week and cumulative post-exposure outcome windows. We define the start of the exposure week (week 0) using the hurricane track timestamp closest in distance to the county centroid. The reference week is 2 weeks prior to exposure week (week -2).
+\item The first row compares the reference week with the exposure week.
+\item The second through fourth rows compare the reference week with cumulative outcome windows through weeks 0--1, 0--2, and 0--3.
+\item[a] Obs $N$ is the number of paired beneficiary--storm observations. A pair is a beneficiary--storm observation with both the reference week (two weeks prior to storm exposure) and the exposure week.
+\item[b] Effects are within-beneficiary percentage-point differences between the exposure week and the reference week. Standard errors are two-way clustered at the facility and storm levels.
+\item[c] The hurricane wind-exposed sample includes beneficiaries residing in counties estimated to have been exposed to wind speeds of at least 17 m/s from the hurricane.
+\item[d] The facility-disruption sample includes beneficiaries treated at facilities with hurricane-associated disruptions. A facility was classified as disrupted when, during a given week associated with hurricane exposure, at least one-third of the beneficiaries it served received one or fewer dialysis sessions.
+\end{tablenotes}
+
+\end{threeparttable}
+\end{adjustbox}
+
+\end{table}
+
+\end{document}

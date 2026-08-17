@@ -1,0 +1,113 @@
+% This takes in both the hurricane wind-exposed sample and the
+% closed sample to create one table
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{makecell}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{caption}
+
+\begin{document}
+
+\captionsetup[table]{labelformat=empty}
+
+\begin{table}[!htbp]
+\centering
+
+\begin{adjustbox}{max width=\textwidth}
+\begin{threeparttable}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+
+\caption{
+Table 4: Within-beneficiary early-dialysis differential estimates comparing the
+reference week with the exposure week
+}
+\label{tab:earlyA_pooled_combined}
+
+% One sample column, one N column, and four outcome columns
+\begin{tabular}{
+    >{\raggedright\arraybackslash}p{1.6in}
+    c
+    *{4}{c}
+}
+\toprule
+
+& \multicolumn{1}{c}{Sample size}
+& \multicolumn{1}{c}{ED visit}
+& \multicolumn{1}{c}{IP admission}
+& \multicolumn{1}{c}{Mortality}
+& \multicolumn{1}{c}{Dialysis disruption\tnote{e}}\\
+
+\cmidrule(lr){2-2}
+\cmidrule(lr){3-3}
+\cmidrule(lr){4-4}
+\cmidrule(lr){5-5}
+\cmidrule(lr){6-6}
+
+\makecell[l]{Sample}
+& \makecell[c]{Obs\\$N$\tnote{a}}
+& \makecell[c]{Early effect\\(95\% CI)\tnote{b}}
+& \makecell[c]{Early effect\\(95\% CI)\tnote{b}}
+& \makecell[c]{Early effect\\(95\% CI)\tnote{b}}
+& \makecell[c]{Early effect\\(95\% CI)\tnote{b}}\\
+
+\midrule
+
+\textbf{Hurricane sample\tnote{c}}
+&
+\input{exhibit_step5_early_FE_pooled_body.tex}
+
+\textbf{Closed facility sample\tnote{d}}
+&
+\input{
+exhibit_optionA_earlyA_FE_pooled_only_body_anchor_exposure_refm2_v03_earlyA_aligned_2tables.tex
+}
+
+\bottomrule
+\end{tabular}
+
+\begin{tablenotes}[flushleft]
+\footnotesize
+
+\item[]
+Notes: The analysis calculates the within-beneficiary percentage-point difference from refer-
+ence to hazard week among the early dialysis group relative to the non-early dialysis group.
+The early dialysis group includes beneficiaries where the last dialysis session before the hur-
+ricane exposure date occurred on an off-schedule day rather than on the patient’s usual
+3-day dialysis schedule.
+
+\item[a]
+Obs $N$ is the number of paired beneficiary–storm observations with both the reference
+week (two weeks before storm exposure) and the exposure week.
+
+\item[b]
+A positive coefficient indicates worse outcomes among the early dialysis group relative to
+the non-early dialysis group, while a negative coefficient indicates better outcomes. Standard
+errors are two-way clustered at the facility and storm levels.
+
+\item[c]
+The hurricane wind-exposed sample includes beneficiaries residing in counties estimated to
+have been exposed to wind speeds of at least 17 m/s from the hurricane.
+
+\item[d]
+The facility-disruption sample includes beneficiaries treated at facilities with hurricane-
+associated disruptions. A facility was classified as disrupted when, during a given week
+associated with hurricane exposure, at least one-third of the beneficiaries it served received
+one or fewer dialysis sessions.
+
+\item[e]
+The post-exposure period for the disruption outcome is relative days 1-7 instead of days 0-6 as defined for outcomes ED, IP, and Mortality.
+
+\end{tablenotes}
+
+\end{threeparttable}
+\end{adjustbox}
+
+\end{table}
+
+\end{document}
