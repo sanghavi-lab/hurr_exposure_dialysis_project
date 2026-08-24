@@ -34,7 +34,7 @@ dask.config.set({
     "distributed.comm.timeouts.tcp": "60s"
 })
 
-client = Client("10.50.87.96:38033")
+client = Client("[redacted]")
 print(client)
 
 # -------------------------
